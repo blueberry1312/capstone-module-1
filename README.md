@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Trade and Investment Global Summit README </b></h3>
+  <h3><b>Capstone project README </b></h3>
 </div>
 
 
