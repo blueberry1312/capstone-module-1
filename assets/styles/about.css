@@ -1,0 +1,52 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("../images/background-header-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 20px 0 20px;
+  text-align: center;
+}
+
+.headline h3 {
+  font-size: 20px;
+  color: #ec5242;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.headline h1 {
+  font-size: 34px;
+  color: #ec5242;
+  font-weight: 700;
+  margin: 0;
+}
+
+.headline p {
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid #dfdfdf;
+  padding: 15px;
+  color: #272a31;
+}
+
+.headline #contact-msg {
+  color: #272a31;
+  font-weight: 500;
+  margin-bottom: 0;
+  line-height: 25px;
+}
+
+.headline #contact-email {
+  margin-top: 5px;
+}
