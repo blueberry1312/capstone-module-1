@@ -78,7 +78,7 @@ const cardSpeakers = (index) => `
 
 const displayTwoSpeakers = () => {
   featuredSpeakers.innerHTML = ' ';
-  for (let i = 0; i < 2; i++) {
+  for (let i = 0; i < 2; i += 1) {
     const speaker = document.createElement('div');
     speaker.classList.add('speaker-card');
     speaker.innerHTML = cardSpeakers(i);
@@ -88,7 +88,7 @@ const displayTwoSpeakers = () => {
 
 const displayAllSpeakers = () => {
   featuredSpeakers.innerHTML = ' ';
-  for (let i = 0; i < speakersInfo.length; i++) {
+  for (let i = 0; i < speakersInfo.length; i += 1) {
     const speaker = document.createElement('div');
     speaker.classList.add('speaker-card');
     speaker.innerHTML = cardSpeakers(i);
