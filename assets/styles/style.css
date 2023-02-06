@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-image: url("../images/background-mobile.png");
+  background-image: url("../images/background-header-mobile.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -52,7 +52,15 @@ header {
   font-size: 16px;
   color: #272a31;
   font-weight: 500;
+  margin-top: 5px;
   margin-bottom: 20px;
+}
+
+.main-program {
+  background-image: url("../images/background-main-program-mobile.png");
+  background-repeat: repeat;
+  background-color: #272a31;
+  height: 1500px;
 }
 
 #hamburger {
