@@ -50,3 +50,100 @@ header {
 .headline #contact-email {
   margin-top: 5px;
 }
+
+.vg-gs-logo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+}
+
+.vg-gs-logo h2 {
+  color: #272a31;
+}
+
+.vg-gs-logo #logo {
+  margin-top: 40px;
+  border: 1px #d6d6d6 solid;
+}
+
+.vg-gs-logo #logo-msg {
+  color: #272a31;
+  font-weight: 500;
+  margin-bottom: 0;
+  line-height: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.vg-gs-past {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+  margin-bottom: 60px;
+}
+
+.vg-gs-past h2 {
+  color: #272a31;
+}
+
+.vg-gs-past #past-msg {
+  color: #272a31;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.guide-bar-logo {
+  width: 2em;
+  align-self: center;
+}
+
+.global-summit-2022 {
+  background-image: url(../images/pastsummit.jpg);
+  background-color: #ec5242;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  margin-bottom: 2em;
+  padding: 0;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.global-summit-2022 h2 {
+  color: #fff;
+}
+
+.global-summit-2021 {
+  background-image: url(../images/pastsummit.jpg);
+  background-color: #ec5242;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  margin-bottom: 2em;
+  padding: 0;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.global-summit-2021 h2 {
+  color: #fff;
+}
+
+#hamburger {
+  margin: 15px 20px;
+}
