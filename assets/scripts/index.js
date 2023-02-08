@@ -5,20 +5,20 @@ const mediaqueryList = window.matchMedia('(max-width: 768px)');
 const speakersInfo = [
   {
     id: 0,
-    url: './assets/speakers/angello-pro-ecH8mCm4nWk-unsplash.jpg',
-    name: 'Yochai Benkler',
+    url: 'assets/images/gabe-newell.jpg',
+    name: 'Gabe Newell',
     position:
-      'Beykman Professor of Enterpreanurial Legal Studies of Harvard Law School',
+      'Co-founder and president of the video game company Valve',
     description:
-      'Benlder studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.',
+      'Newell spent 13 years at Microsoft as the lead developer of the first three releases of the Windows operating systems, making him a millionaire.',
   },
   {
     id: 1,
-    url: './assets/speakers/michael-mims-fWWiaDox0BU-unsplash.jpg',
-    name: 'SohYeong Noh',
-    position: 'Director of Art Centre Nabl and a board member of CC Korea',
+    url: 'assets/images/pedro-pascal.jpg',
+    name: 'Pedro Pascal',
+    position: 'Chilean-born American actor',
     description:
-      'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
+      'Since 2019, he has starred as the title character in the Disney+ Star Wars series The Mandalorian and since 2023, he has played Joel in the HBO drama series The Last of Us.',
   },
   {
     id: 2,
@@ -57,7 +57,7 @@ const speakersInfo = [
 
 const cardSpeakers = (index) => `
   <div class="speaker-card-img">
-      <img src=${speakersInfo[index].url} alt="image of speaker ${speakersInfo[index].name}">
+      <img src=${speakersInfo[index].url} alt="image of speaker ${speakersInfo[index].name}" class="speaker-card-image">
   </div>
   <div class="speaker-card-content">
       <div class="speaker-card-name">
