@@ -5,59 +5,59 @@ const mediaqueryList = window.matchMedia('(max-width: 768px)');
 const speakersInfo = [
   {
     id: 0,
-    url: './assets/speakers/angello-pro-ecH8mCm4nWk-unsplash.jpg',
-    name: 'Yochai Benkler',
+    url: 'assets/images/gabe-newell.jpg',
+    name: 'Gabe Newell',
     position:
-      'Beykman Professor of Enterpreanurial Legal Studies of Harvard Law School',
+      'Co-founder and president of the video game company Valve',
     description:
-      'Benlder studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.',
+      'Newell spent 13 years at Microsoft as the lead developer of the first three releases of the Windows operating systems, making him a millionaire.',
   },
   {
     id: 1,
-    url: './assets/speakers/michael-mims-fWWiaDox0BU-unsplash.jpg',
-    name: 'SohYeong Noh',
-    position: 'Director of Art Centre Nabl and a board member of CC Korea',
+    url: 'assets/images/pedro-pascal.jpg',
+    name: 'Pedro Pascal',
+    position: 'Chilean-born American actor',
     description:
-      'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
+      'Since 2019, he has starred as the title character in the Disney+ Star Wars series The Mandalorian and since 2023, he has played Joel in the HBO drama series The Last of Us.',
   },
   {
     id: 2,
-    url: './assets/speakers/kelly-sikkema-JN0SUcTOig0-unsplash.jpg',
-    name: 'Lila Tretikov',
-    position: 'Executive Director of the Wikimedia Foundation',
+    url: 'assets/images/elon-musk.jpg',
+    name: 'Elon Musk',
+    position: 'CEO of SpaceX, Tesla and Twitter',
     description:
-      'Lila Tretikov is the Executive Director of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia Wikipedia is freely available in 290 languag es and used by nearly half a billion people around the world every month',
+      'Elon Reeve Musk is a business magnate and investor. He is the founder, CEO and chief engineer of SpaceX; angel investor, CEO and product architect of Tesla, Inc.; owner and CEO of Twitter, Inc.; founder of The Boring Company; co-founder of Neuralink and OpenAI; and president of the philanthropic Musk Foundation.',
   },
   {
     id: 3,
-    url: 'assets/speakers/ethan-hoover-0YHIlxeCuhg-unsplash.jpg',
-    name: 'Kilnam Chon',
+    url: 'assets/images/gabe-newell.jpg',
+    name: 'Gabe Newell',
     position:
-      'Beykman Professor of Enterpreanurial Legal Studies of Harvard Law School',
+      'Co-founder and president of the video game company Valve',
     description:
-      "Kinam Chon helped bring the Internet to Asia and is an outspoken advocate for the open web and digital com mons. In 2012, he was inducted into the inaugural class of the Internet Society's (SOC) Internet Hall of Fame.",
+      'Newell spent 13 years at Microsoft as the lead developer of the first three releases of the Windows operating systems, making him a millionaire.',
   },
   {
     id: 4,
-    url: './assets/speakers/mike-austin-jgSAuqMmJUE-unsplash.jpg',
-    name: 'Julia Leda',
-    position: 'President of Young Pirates of Europe',
+    url: 'assets/images/pedro-pascal.jpg',
+    name: 'Pedro Pascal',
+    position: 'Chilean-born American actor',
     description:
-      "European ingetration, political democracy and participation of youth through online as her major condern, Reda's report outlining potential changes to EU copyright law was approved by the Parliament in July",
+      'Since 2019, he has starred as the title character in the Disney+ Star Wars series The Mandalorian and since 2023, he has played Joel in the HBO drama series The Last of Us.',
   },
   {
     id: 5,
-    url: './assets/speakers/jonas-kakaroto-mjRwhvqEC0U-unsplash.jpg',
-    name: 'Ryan Merkley',
-    position: 'CEO of Creative Commons, ex COO of the Mozilla Foundation',
+    url: 'assets/images/elon-musk.jpg',
+    name: 'Elon Musk',
+    position: 'CEO of SpaceX, Tesla and Twitter',
     description:
-      'Ryan had been leading open-source projects at the Mozilla Foundation such as the open source move ment',
+      'Elon Reeve Musk is a business magnate and investor. He is the founder, CEO and chief engineer of SpaceX; angel investor, CEO and product architect of Tesla, Inc.; owner and CEO of Twitter, Inc.; founder of The Boring Company; co-founder of Neuralink and OpenAI; and president of the philanthropic Musk Foundation.',
   },
 ];
 
 const cardSpeakers = (index) => `
   <div class="speaker-card-img">
-      <img src=${speakersInfo[index].url} alt="image of speaker ${speakersInfo[index].name}">
+      <img src=${speakersInfo[index].url} alt="image of speaker ${speakersInfo[index].name}" class="speaker-card-image">
   </div>
   <div class="speaker-card-content">
       <div class="speaker-card-name">

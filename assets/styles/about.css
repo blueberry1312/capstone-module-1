@@ -5,9 +5,10 @@ body {
 }
 
 header {
-  background-image: url("../images/background-header-mobile.png");
+  background-image: url("../images/background-about-mobile.png");
   background-repeat: no-repeat;
   background-size: 100%;
+  background-color: #f6f6f6;
 }
 
 .headline {
@@ -56,6 +57,8 @@ header {
   flex-direction: column;
   text-align: center;
   margin: 20px;
+  margin-bottom: 40px;
+  background-color: #fff;
 }
 
 .vg-gs-logo h2 {
@@ -80,12 +83,14 @@ header {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
+  border-top: 1px #d6d6d6 solid;
 }
 
 .vg-gs-past h2 {
   color: #272a31;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .vg-gs-past #past-msg {
@@ -117,6 +122,8 @@ header {
   padding: 0;
   color: #fff;
   opacity: 0.9;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .global-summit-2022 h2 {
@@ -138,10 +145,84 @@ header {
   padding: 0;
   color: #fff;
   opacity: 0.9;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .global-summit-2021 h2 {
   color: #fff;
+}
+
+.partners {
+  background-color: #272a31;
+  text-align: center;
+}
+
+.partners h2 {
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+.partners-logo {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+#mozilla {
+  width: 80px;
+  position: relative;
+  top: -5px;
+  justify-self: center;
+}
+
+#google {
+  width: 80px;
+  position: relative;
+  top: -5px;
+  justify-self: center;
+}
+
+#naver {
+  width: 80px;
+  position: relative;
+  justify-self: center;
+}
+
+#kakao {
+  width: 70px;
+  position: relative;
+  right: -60px;
+  top: -15px;
+  justify-self: center;
+}
+
+#airbnb {
+  width: 90px;
+  position: relative;
+  right: -65px;
+  top: -35px;
+  justify-self: center;
+}
+
+.right-reserved {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px;
+}
+
+.right-reserved p {
+  font-size: 12px;
+  top: -13px;
+  position: relative;
+  line-height: 20px;
+}
+
+#right-reserved {
+  width: 200px;
 }
 
 #hamburger {
