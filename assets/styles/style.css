@@ -26,14 +26,14 @@ a {
   margin: 20px 20px 0 20px;
 }
 
-.headline h3 {
+.headline h1 {
   font-size: 20px;
   color: #ec5242;
   font-weight: 500;
   margin: 0;
 }
 
-.headline h1 {
+.headline h3 {
   font-size: 34px;
   color: #ec5242;
   font-weight: 700;
