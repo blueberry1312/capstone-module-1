@@ -154,3 +154,5 @@ const screenTest = (e) => {
 };
 
 screenTest(mediaqueryList);
+
+mediaqueryList.addEventListener('change', screenTest);
