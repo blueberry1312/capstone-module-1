@@ -158,6 +158,11 @@ header {
   font-size: 0.7em;
 }
 
+button {
+  background: none;
+  border: none;
+}
+
 .speakers-btn {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
@@ -169,6 +174,83 @@ header {
   background-color: #fff;
   width: 90%;
   margin-bottom: 40px;
+}
+
+.menu-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-close-nav {
+  background: none;
+}
+
+.btn-close-nav > img {
+  width: 3em;
+}
+
+.menu-btn > img {
+  width: 2.5em;
+}
+
+.header-nav-mobile {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  color: #3a4a42;
+  opacity: 0.95;
+  text-align: center;
+}
+
+.menu-btn,
+.header-nav-mobile > button {
+  background: none;
+}
+
+.header-nav-mobile > button {
+  margin: 0.5em 0.5em;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.header-nav-mobile > img {
+  width: 2em;
+}
+
+.header-nav-mobile > ul {
+  padding-inline-start: 0;
+}
+
+.header-nav-mobile > ul > li {
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+  text-align: center;
+}
+
+.header-nav-mobile > ul > li > a {
+  font-size: 1em;
+  font-weight: 600;
+  color: #99362b;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.menu-btn.hidden {
+  display: none;
+}
+
+.header-nav-mobile.hidden {
+  display: none;
 }
 
 #guide-bar-mp {
@@ -185,4 +267,8 @@ header {
 
 #hamburger {
   margin: 15px 20px;
+}
+
+.hidden {
+  display: none;
 }
