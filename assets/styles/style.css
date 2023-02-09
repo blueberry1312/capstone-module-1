@@ -527,7 +527,7 @@ footer {
     margin-bottom: 0;
   }
 
-  .partners-logo {
+  .partners-logo > ul {
     margin: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
