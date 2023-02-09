@@ -11,6 +11,14 @@ header {
   background-color: #f6f6f6;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 button {
   background: none;
   border: none;
@@ -21,6 +29,7 @@ button {
   flex-direction: column;
   margin: 20px 20px 0 20px;
   text-align: center;
+  align-items: center;
 }
 
 .headline h3 {
@@ -325,4 +334,147 @@ button {
 
 .hidden {
   display: none;
+}
+
+.header-nav {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .header-nav-phone {
+    display: none;
+  }
+
+  h1 {
+    font-size: 60px;
+    max-width: 670px;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  .headline {
+    margin: 100px;
+  }
+
+  .headline p {
+    max-width: 550px;
+  }
+
+  .headline h4 {
+    margin-bottom: 6em;
+  }
+
+  .header-nav {
+    display: block;
+    box-shadow: var(--shadow);
+  }
+
+  .header-nav-desktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .header-nav-desktop > li > a {
+    font-weight: normal;
+    padding: 0.5em;
+    margin: 0;
+    color: gray;
+  }
+
+  .header-nav-desktop > li > a:hover {
+    color: var(--accent-color);
+    border: 4px solid var(--accent-color);
+    cursor: pointer;
+  }
+
+  .container-top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 3em;
+    background: #272a31;
+    color: white;
+  }
+
+  .header-top-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 900px;
+  }
+
+  .header-top-nav-desktop {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .header-top-nav .header-top-nav-desktop > li > a {
+    font-weight: normal;
+    letter-spacing: normal;
+    color: white;
+  }
+
+  .hidden {
+    display: flex;
+  }
+
+  nav {
+    background: white;
+  }
+
+  .container-nav {
+    max-width: 900px;
+    padding: 0.7em 1.2em 0.7em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo-nav {
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 15%;
+  }
+
+  .logo-nav img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+
+  .global-pasts {
+    display: flex;
+  }
+
+  .global-summit-2022 {
+    width: 50%;
+  }
+
+  .global-summit-2021 {
+    width: 50%;
+  }
+
+  .partners {
+    display: none;
+  }
+
+  .right-reserved {
+    background-color: #272a31;
+    padding: 50px;
+    margin: 0;
+  }
+
+  .right-reserved p {
+    color: #fff;
+  }
 }
