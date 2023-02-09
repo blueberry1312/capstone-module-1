@@ -47,6 +47,8 @@ HTML, CSS, JavaScript
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+- [Video Presentation](https://www.loom.com/share/70f405ee697d4d6fad968b548625f89d)
+
 - [Live Demo Link](https://blueberry1312.github.io/capstone-module-1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

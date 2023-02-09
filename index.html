@@ -11,14 +11,83 @@
     </head>
     <body>
         <header>
-            <img src="assets/images/hamburger-icon.svg" alt="menu link" id="hamburger">
+            <nav class="header-nav">
+                <div class="container-top-nav">
+                    <div class="header-top-nav">
+                        <ul class="header-top-nav-desktop">
+                            <li><a href="./about.html"><img src="assets/images/twitter-icon.svg" alt="twitter icon"></a></li>
+                            <li><a href="./about.html"><img src="assets/images/linkedin-icon.svg" alt="linkedin icon"></i></a></li>
+                            <li><a href="./about.html">English</a></li>
+                            <li><a href="./about.html">My Page</a></li>
+                            <li><a href="./about.html">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container-nav">
+                    <div class="logo-nav">
+                        <a href="./index.html">
+                            <img src="assets/images/logo.png" alt="logo of VG Global">
+                        </a>
+                    </div>
+                    <ul class="header-nav-desktop">
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./about.html">Program</a></li>
+                        <li><a href="./about.html">Join</a></li>
+                        <li><a href="./about.html">Sponsor</a></li>
+                        <li><a href="./about.html">News</a></li>
+                        <li><a href="./about.html">CC Campaign</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-nav-phone">
+                <button type="button" class="menu-btn">
+                    <img src="assets/images/hamburger-icon.svg" alt="menu link" id="hamburger">
+                </button>
+                <nav class="header-nav-mobile hidden">
+                    <button type="button" class="btn-close-nav">
+                        <img src="assets/images/icon-cancel.svg" alt="cancel icon">
+                    </button>
+                    <ul>
+                        <li>
+                            <a href="./about.html" class="link-about">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-program">
+                                Program
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-join">
+                                Join
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-sponsor">
+                                Sponsor
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-news">
+                                News
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link-cc-campaign">
+                                CC Campaign
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>            
             <div class="headline">
-                <h3>
-                    "Hello! Sharing world"
-                </h3>
                 <h1>
-                    VIDEOGAMES GLOBAL SUMMIT 2023
+                    "Hello! Sharing world"
                 </h1>
+                <h3>
+                    VIDEOGAMES GLOBAL SUMMIT 2023
+                </h3>
                 <p>
                     This platform aims to become a meeting point to share knowledge, experiences and create a networking space between video game developer companies around the world.
                 </p>
@@ -36,65 +105,68 @@
                 Main Program
             </h2>
             <img src="assets/images/guide-bar.svg" alt="guide bar image" id="guide-bar-mp">
-            <div class="program-list">
-                <div class="program-icon">
-                    <img src="assets/images/program-icon-1.png" alt="program icon 1">
-                </div>
-                <div class="program-title">
-                    Lecture
-                </div>
-                <div class="program-description">                    
-                    Listen to the speakers from various countries about the messeges of sharing and opening.
-                </div>
-            </div>
-            <div class="program-list">
-                <div class="program-icon">
-                    <img src="assets/images/program-icon-2.png" alt="program icon 2">
-                </div>
-                <div class="program-title">
-                    Exhibition
-                </div>
-                <div class="program-description">                    
-                    Appreciate various creations applying CC license of artists, organized from Art Center
-                    Nabi.                
-                </div>
-            </div>
-            <div class="program-list">
-                <div class="program-icon">
-                    <img src="assets/images/program-icon-3.png" alt="program icon 3">
-                </div>
-                <div class="program-title">
-                    Forum
-                </div>
-                <div class="program-description">                    
-                    Have the time to share your thoughts and opinions with experts for each topic.                            
-                </div>
-            </div>
-            <div class="program-list">
-                <div class="program-icon">
-                    <img src="assets/images/program-icon-4.png" alt="program icon 4">
-                </div>
-                <div class="program-title">
-                    Workshop
-                </div>
-                <div class="program-description">                    
-                    Try creating your own work using open source license rather than just watching at it.                            
-                </div>
-            </div>
-            <div class="program-list">
-                <div class="program-icon">
-                    <img src="assets/images/program-icon-5.png" alt="program icon 5">
-                </div>
-                <div class="program-title">
-                    Ignite
-                </div>
-                <div class="program-description">                    
-                    Get opportunities to network with CC affiliates around the world, also after the summit.                            
-                </div>
-            </div>
+            <section class="program-list-container">
+                <article class="program-list">
+                    <div class="program-icon">
+                        <img src="assets/images/program-icon-1.png" alt="program icon 1">
+                    </div>
+                    <div class="program-title">
+                        Lecture
+                    </div>
+                    <div class="program-description">                    
+                        Listen to the speakers from various countries about the messeges of sharing and opening.
+                    </div>
+                </article>
+                <article class="program-list">
+                    <div class="program-icon">
+                        <img src="assets/images/program-icon-2.png" alt="program icon 2">
+                    </div>
+                    <div class="program-title">
+                        Exhibition
+                    </div>
+                    <div class="program-description">                    
+                        Appreciate various creations applying CC license of artists, organized from Art Center
+                        Nabi.                
+                    </div>
+                </article>
+                <article class="program-list">
+                    <div class="program-icon">
+                        <img src="assets/images/program-icon-3.png" alt="program icon 3">
+                    </div>
+                    <div class="program-title">
+                        Forum
+                    </div>
+                    <div class="program-description">                    
+                        Have the time to share your thoughts and opinions with experts for each topic.                            
+                    </div>
+                </article>
+                <article class="program-list">
+                    <div class="program-icon">
+                        <img src="assets/images/program-icon-4.png" alt="program icon 4">
+                    </div>
+                    <div class="program-title">
+                        Workshop
+                    </div>
+                    <div class="program-description">                    
+                        Try creating your own work using open source license rather than just watching at it.                            
+                    </div>
+                </article>
+                <article class="program-list">
+                    <div class="program-icon">
+                        <img src="assets/images/program-icon-5.png" alt="program icon 5">
+                    </div>
+                    <div class="program-title">
+                        Ignite
+                    </div>
+                    <div class="program-description">                    
+                        Get opportunities to network with CC affiliates around the world, also after the summit.                            
+                    </div>
+                </article>
+            </section>
             <button type="button" class="main-btn">
                 Join Videogames Global Summit 2023
             </button>
+            <a href="./about.html" class="main-link-btn">SEE THE WHOLE PROGRAM</a>
         </section>
         <section class="featured-speakers">
             <h2>
@@ -107,6 +179,27 @@
             </button>
         </section>
         <footer>
+            <div class="partners">
+                <h2>
+                    Partner
+                </h2>
+                <img src="assets/images/guide-bar.svg" alt="guide bar image" class="guide-bar-logo">
+                <div class="partners-logo">        
+                    <ul>           
+                        <li><img src="assets/images/mozilla.png" alt="mozilla logo" id="mozilla"></li>
+                        <li><img src="assets/images/google.png" alt="google logo" id="google"></li>
+                        <li><img src="assets/images/naver.png" alt="naver logo" id="naver"></li>
+                        <li><img src="assets/images/kakao.png" alt="kakao logo" id="kakao"></li>
+                        <li><img src="assets/images/airbnb.png" alt="airbnb logo" id="airbnb"></li>
+                    </ul> 
+                </div>
+            </div>
+            <div class="right-reserved">
+                <img src="assets/images/cc-righ-reserved.png" alt="cc righ reserved" id="right-reserved">
+                <p>
+                    2023 Creative Commons. Some Rights Reserved.
+                </p>
+            </div>
         </footer>
         <script src="assets/scripts/index.js"></script>
     </body>
